@@ -7,8 +7,8 @@ mv ~/.vimrc ~/.vimrc.bak
 mv ~/.gvimrc ~/.gvimrc.bak
 
 # Set new config files
-ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
+ln -s ~/.vim/.vimrc ~/.vimrc
+ln -s ~/.vim/.gvimrc ~/.gvimrc
 
 # Get plugins
 cd ~/.vim
